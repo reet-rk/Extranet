@@ -28,22 +28,22 @@ return [
     'chapter_move_notification' => 'Chapter successfully moved',
 
     // Books
-    'book_create'                 => 'created book',
-    'book_create_notification'    => 'Book successfully created',
-    'book_create_from_chapter'              => 'converted chapter to book',
-    'book_create_from_chapter_notification' => 'Chapter successfully converted to a book',
-    'book_update'                 => 'updated book',
-    'book_update_notification'    => 'Book successfully updated',
-    'book_delete'                 => 'deleted book',
-    'book_delete_notification'    => 'Book successfully deleted',
-    'book_sort'                   => 'sorted book',
-    'book_sort_notification'      => 'Book successfully re-sorted',
+    'book_create'                 => 'created manual',
+    'book_create_notification'    => 'Manual successfully created',
+    'book_create_from_chapter'              => 'converted chapter to manual',
+    'book_create_from_chapter_notification' => 'Chapter successfully converted to a manual',
+    'book_update'                 => 'updated manual',
+    'book_update_notification'    => 'Manual successfully updated',
+    'book_delete'                 => 'deleted manual',
+    'book_delete_notification'    => 'Manual successfully deleted',
+    'book_sort'                   => 'sorted manual',
+    'book_sort_notification'      => 'Manual successfully re-sorted',
 
     // Bookshelves
     'bookshelf_create'            => 'created shelf',
     'bookshelf_create_notification'    => 'Shelf successfully created',
-    'bookshelf_create_from_book'    => 'converted book to shelf',
-    'bookshelf_create_from_book_notification'    => 'Book successfully converted to a shelf',
+    'bookshelf_create_from_book'    => 'converted manual to shelf',
+    'bookshelf_create_from_book_notification'    => 'Manual successfully converted to a shelf',
     'bookshelf_update'                 => 'updated shelf',
     'bookshelf_update_notification'    => 'Shelf successfully updated',
     'bookshelf_delete'                 => 'deleted shelf',
@@ -84,14 +84,6 @@ return [
     'webhook_delete' => 'deleted webhook',
     'webhook_delete_notification' => 'Webhook successfully deleted',
 
-    // Imports
-    'import_create' => 'created import',
-    'import_create_notification' => 'Import successfully uploaded',
-    'import_run' => 'updated import',
-    'import_run_notification' => 'Content successfully imported',
-    'import_delete' => 'deleted import',
-    'import_delete_notification' => 'Import successfully deleted',
-
     // Users
     'user_create' => 'created user',
     'user_create_notification' => 'User successfully created',
@@ -126,14 +118,6 @@ return [
     'comment_create'              => 'added comment',
     'comment_update'              => 'updated comment',
     'comment_delete'              => 'deleted comment',
-
-    // Sort Rules
-    'sort_rule_create' => 'created sort rule',
-    'sort_rule_create_notification' => 'Sort rule successfully created',
-    'sort_rule_update' => 'updated sort rule',
-    'sort_rule_update_notification' => 'Sort rule successfully updated',
-    'sort_rule_delete' => 'deleted sort rule',
-    'sort_rule_delete_notification' => 'Sort rule successfully deleted',
 
     // Other
     'permissions_update'          => 'updated permissions',

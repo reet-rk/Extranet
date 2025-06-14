@@ -24,4 +24,11 @@ return [
 
     'footer_reason' => 'This notification was sent to you because :link cover this type of activity for this item.',
     'footer_reason_link' => 'your notification preferences',
+    
+    'updated_email_subject' => 'Andorra 2025 GSSE Extranet Notification – :date',
+    'updated_email_intro' => 'The following sections of the Technical Guide have been updated:',
+    'updated_email_debounce' => 'Please contact info@ignitx.events if you have any questions.',
+    'action_email_view_page' => 'Go To Extranet',
+    'updated_email_regards' => 'Kind Regards,',
+    'updated_email_team' => 'The Extranet Team',
 ];
