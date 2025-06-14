@@ -27,10 +27,8 @@
         {{ $revision->summary }}
     </div>
     <div class="flex-2 px-m py-xs actions text-small text-l-right min-width-l">
-        @if(!$oldest)
-            <a href="{{ $revision->getUrl('changes') }}" target="_blank" rel="noopener">{{ trans('entities.pages_revisions_changes') }}</a>
-            <span class="text-muted opacity-70">&nbsp;|&nbsp;</span>
-        @endif
+        <a href="{{ $revision->getUrl('changes') }}" target="_blank" rel="noopener">{{ trans('entities.pages_revisions_changes') }}</a>
+        <span class="text-muted opacity-70">&nbsp;|&nbsp;</span>
 
 
         @if ($current)

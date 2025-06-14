@@ -28,6 +28,12 @@
     @include('entities.sibling-navigation', ['next' => $next, 'previous' => $previous])
 
     @if ($commentTree->enabled())
+        @if(($previous || $next))
+            <div class="px-xl print-hidden">
+                <hr class="darker">
+            </div>
+        @endif
+
         <div class="comments-container mb-l print-hidden">
             @include('comments.comments', ['commentTree' => $commentTree, 'page' => $page])
             <div class="clearfix"></div>
@@ -182,9 +188,9 @@
             @if($watchOptions->canWatch() && !$watchOptions->isWatching())
                 @include('entities.watch-action', ['entity' => $page])
             @endif
-            @if(!user()->isGuest())
+            {{-- @if(!user()->isGuest())
                 @include('entities.favourite-action', ['entity' => $page])
-            @endif
+            @endif --}}
             @if(userCan('content-export'))
                 @include('entities.export-menu', ['entity' => $page])
             @endif

@@ -17,7 +17,6 @@
         @endif
     @endif
 
-    <p class="text-muted break-text">{{ $entity->preview_content ?? $entity->getExcerpt() }}</p>
 </div>
 
 @if(($showTags ?? false) && $entity->tags->count() > 0)

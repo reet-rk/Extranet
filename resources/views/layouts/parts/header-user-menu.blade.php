@@ -5,7 +5,7 @@
         <span class="name">{{ $user->getShortName(9) }}</span> @icon('caret-down')
     </span>
     <ul refs="dropdown@menu" class="dropdown-menu" role="menu">
-        <li>
+    {{--     <li>
             <a href="{{ url('/favourites') }}" data-shortcut="favourites_view" class="icon-item">
                 @icon('star')
                 <div>{{ trans('entities.my_favourites') }}</div>
@@ -16,7 +16,7 @@
                 @icon('user')
                 <div>{{ trans('common.view_profile') }}</div>
             </a>
-        </li>
+        </li>--}}
         <li>
             <a href="{{ url('/my-account') }}" class="icon-item">
                 @icon('user-preferences')

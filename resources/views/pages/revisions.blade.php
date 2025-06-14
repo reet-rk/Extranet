@@ -37,11 +37,7 @@
                         <div class="flex-2 px-m py-xs text-right">{{ trans('common.actions') }}</div>
                     </div>
                     @foreach($revisions as $index => $revision)
-                        @include('pages.parts.revisions-index-row', [
-                                'revision' => $revision,
-                                'current' => $page->revision_count === $revision->revision_number,
-                                'oldest' => $oldestRevisionId === $revision->id,
-                            ])
+                        @include('pages.parts.revisions-index-row', ['revision' => $revision, 'current' => $page->revision_count === $revision->revision_number])
                     @endforeach
                 </div>
             @else
