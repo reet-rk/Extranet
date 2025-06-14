@@ -18,9 +18,9 @@ class ListMessageLine implements Htmlable, Stringable
 
     public function toHtml(): string
     {
-        $list = [];
+         $list = [];
         foreach ($this->list as $header => $content) {
-            $list[] = '<strong>' . e($header) . '</strong> ' . e($content);
+            $list[] = '<strong>' . '*' . '</strong> ' . e($content);
         }
         return implode("<br>\n", $list);
     }
