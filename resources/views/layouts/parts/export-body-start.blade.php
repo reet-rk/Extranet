@@ -26,7 +26,7 @@
 <div class="print-header-footer" style="top: -60px;">
     <div class="print-header-footer-inner">
         <div style="float: left; opacity: 0.6;">
-           <img height="42" src="data:image/png;base64,{{ base64_encode(file_get_contents(theme_path('PDFlogo.png'))) }}">
+           <img height="42" src="data:image/png;base64,{{ base64_encode(file_get_contents(theme_path('LogoEYOFSK.png'))) }}">
            
         </div>
         <div style="float: right;">
